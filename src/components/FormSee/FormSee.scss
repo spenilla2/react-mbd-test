@@ -1,0 +1,24 @@
+.form-see {
+  background-color: #fff;
+  border: 2px solid #00acee;
+  padding: 20px;
+  width: 800px;  
+
+  &__title {
+    margin: 0 !important;
+  }
+
+  &__form {
+    .MuiFormControl-root {
+      width: 100%;
+    }
+
+    &-name {
+      border:1px solid blue;
+      width: 50% !important;
+    }
+    &-textarea {
+      width: 100%;
+    }
+  }
+}

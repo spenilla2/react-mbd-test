@@ -1,0 +1,22 @@
+.form-auth{
+    position: fixed;
+    top: 100;
+    left: 0;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+    background-color: #fff;
+    &-email {
+        margin-top: 100px;
+        width: 50% !important;
+
+      }
+      &-pass {
+        margin-top: 100px;
+        width: 50% !important;
+        
+      }
+}
